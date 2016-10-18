@@ -8,4 +8,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/freak4pc/UIView-Positioning.git', :tag => 'v1.3' }
   spec.source_files = 'UIView+Positioning.swift'
   spec.platform     = :ios, '8.0'
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
 end
